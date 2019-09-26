@@ -1,0 +1,31 @@
+//variables
+
+// inmutable (constant)
+val name = "Daniel"
+
+//mutable (can be changed)
+var myAge = 23
+
+// define the data types
+var height : Double = 5.8
+println(height)
+
+println("My height is ${height}")
+// Arrays
+
+//Declare an Array
+
+var myArray = arrayOf(1, 1.3, "Daniel")
+
+//accessing certain element
+println(myArray[0])
+
+//changing an element
+myArray[1] = 3.14
+
+array length
+println(myArray.size)
+
+//print out the array
+for(x in myArray)
+  println(x)
